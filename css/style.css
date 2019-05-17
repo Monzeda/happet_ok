@@ -7292,6 +7292,9 @@ hr {
   .container .row .login-happet form .form-group input.form-control {
     background: #D3D3D3;
     width: 70%; }
+  .container .row .login-happet form .form-group p a {
+    color: blue;
+    cursor: pointer; }
   .container .row .login-happet form .btn-login a {
     border-bottom: 2px solid transparent;
     color: #333333;
@@ -7312,145 +7315,19 @@ hr {
       color: #8FC9BC;
       border-bottom: 2px solid #8FC9BC; }
 
-.form-control {
-  border-radius: 0;
-  height: auto;
-  margin-top: 0;
-  margin-right: .5em;
-  width: auto; }
-
-.table-responsive {
-  overflow-x: auto;
-  margin-top: 1em; }
-  .table-responsive .table.dataTable thead {
-    background-color: #333333;
-    color: #ffffff; }
-    .table-responsive .table.dataTable thead tr, .table-responsive .table.dataTable thead th {
-      white-space: nowrap;
-      border-bottom: none;
-      border-top: none;
-      padding: .5rem .75rem; }
-    .table-responsive .table.dataTable thead .borders {
-      border-left: 1px solid #424242;
-      border-right: 1px solid #424242;
-      border-top: 1px solid #424242;
-      text-align: center; }
-    .table-responsive .table.dataTable thead .borders-null {
-      border-top: none; }
-    .table-responsive .table.dataTable thead .percent:nth-child(1) {
-      width: 90%; }
-  .table-responsive .table.dataTable tbody {
-    background-color: #ffffff;
-    color: #333333; }
-    .table-responsive .table.dataTable tbody tr, .table-responsive .table.dataTable tbody th {
-      white-space: nowrap;
-      font-weight: normal; }
-      .table-responsive .table.dataTable tbody tr .img-fluid, .table-responsive .table.dataTable tbody th .img-fluid {
-        cursor: pointer; }
-    .table-responsive .table.dataTable tbody .work th:nth-child(7) {
-      white-space: normal; }
-    .table-responsive .table.dataTable tbody .work .status-table {
-      background: goldenrod;
-      text-align: center; }
-
-.agree {
-  margin-bottom: 1em;
-  padding-bottom: 1.5em; }
-  .agree .btn-container {
-    padding: 0;
-    width: 100%; }
-    .agree .btn-container.license .btn-info {
-      display: inline-block;
-      margin-right: 1em; }
-      .agree .btn-container.license .btn-info label {
-        display: inline-block; }
-      .agree .btn-container.license .btn-info input {
-        display: inline-block; }
-    .agree .btn-container .btn-info {
-      display: block;
-      text-align: center; }
-      .agree .btn-container .btn-info a:hover {
-        text-decoration: none; }
-    .agree .btn-container label {
-      display: inline-block; }
-    .agree .btn-container select {
-      display: inline-block; }
-  .agree .collapse {
-    margin-top: 1em;
-    width: 100%; }
-    .agree .collapse .card {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      min-width: 0;
-      word-wrap: break-word;
-      background-color: #fff;
-      background-clip: border-box;
-      border: none;
-      border-radius: 0; }
-      .agree .collapse .card form .form-horizontal.control .form-group select.custom-select {
-        width: 50%;
-        float: left;
-        display: inline-block; }
-      .agree .collapse .card form .form-horizontal.control .form-group input.text-box {
-        width: 40%; }
-      .agree .collapse .card form .form-horizontal.control .form-group input.text-box-disabled {
-        width: 60px;
-        float: left;
-        display: inline-block;
-        background: #D3D3D3;
-        margin-left: 1em; }
-      .agree .collapse .card form .form-horizontal.control .form-group input.status {
-        width: 100%;
-        background-color: goldenrod; }
-      .agree .collapse .card form .form-horizontal.control .form-group input.checkbox {
-        float: left;
-        margin-top: .5em; }
-      .agree .collapse .card form .form-horizontal.control .tittle {
-        width: 100%;
-        float: left;
-        margin: 3em auto; }
-      .agree .collapse .card form .form-horizontal hr {
-        margin-top: 2em;
-        margin-bottom: 2em;
-        border-bottom: 1px solid #D3D3D3; }
-      .agree .collapse .card form .form-horizontal .form-group {
-        margin-bottom: 1rem;
-        float: left; }
-        .agree .collapse .card form .form-horizontal .form-group label {
-          display: block;
-          margin-right: 1em; }
-        .agree .collapse .card form .form-horizontal .form-group input, .agree .collapse .card form .form-horizontal .form-group select {
-          display: block;
-          border-radius: 0;
-          width: 100%; }
-        .agree .collapse .card form .form-horizontal .form-group .checkbox {
-          height: 20px;
-          width: 20px;
-          display: inline-block; }
-          .agree .collapse .card form .form-horizontal .form-group .checkbox input[type="checkbox"] {
-            margin-top: 3px; }
-        .agree .collapse .card form .form-horizontal .form-group .custom-select {
-          background: none; }
-      .agree .collapse .card form .form-horizontal .form-footer .btn-info {
-        width: auto;
-        margin-left: 1em;
-        float: right;
-        padding: .5em 3em; }
-      .agree .collapse .card form .form-horizontal .form-footer .btn-info-inverse {
-        width: auto;
-        margin-left: 1em;
-        float: right;
-        padding: .5em 3em; }
-
-.indicators .agree .btn-container label {
-  display: inline-block;
-  margin-right: 1em; }
-
-.indicators .agree .btn-container select {
-  display: inline-block; }
-  .indicators .agree .btn-container select.form-control {
-    width: 40%; }
+.container .row.happet-register {
+  margin-top: 30px; }
+  .container .row.happet-register .txt-register {
+    padding: 20px 40px; }
+    .container .row.happet-register .txt-register form .form-row .form-group .btn-item {
+      width: 50% !important;
+      float: right; }
+    .container .row.happet-register .txt-register form .form-row .form-group p a {
+      color: blue;
+      cursor: pointer; }
+  .container .row.happet-register .happet-logo img.logo {
+    width: 70%;
+    margin-top: 40px; }
 
 .menubar {
   background: #ffffff;
