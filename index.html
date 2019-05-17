@@ -9,14 +9,28 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <script type="text/javascript" src="https://cdn.conekta.io/js/latest/conekta.js"></script>
+    <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("myDIV");
+        var btns = header.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          if (current.length > 0) { 
+            current[0].className = current[0].className.replace(" active", "");
+          }
+          this.className += " active";
+          });
+        }
+    </script>
 
     <title>
         Happet
     </title>
-<link href="css/style.css?70f3dd189c203f2ee6cf" rel="stylesheet"></head>
+<link href="css/style.css?a339e14a4337e5184874" rel="stylesheet"></head>
 
 <body>
     <div id="root"></div>
-<script type="text/javascript" src="js/bundle.js?70f3dd189c203f2ee6cf"></script></body>
+<script type="text/javascript" src="js/bundle.js?a339e14a4337e5184874"></script></body>
 
 </html>
